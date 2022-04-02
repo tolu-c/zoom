@@ -1,0 +1,20 @@
+@import '../../../components/variables.css';
+@import '../../../components/Common.css';
+@import '../../../components/responsive-common.css';
+
+.floatRight{
+    float: right;
+    margin-left: 11px;
+}
+.exportText{
+    position: relative;
+    top: 3px;
+}
+.vtrTextBottom {
+    vertical-align: middle;
+}
+@media (max-width:1023px) and (min-width:768px) {
+    .buttonMargin{
+        margin-top: 12px;
+    }
+    }

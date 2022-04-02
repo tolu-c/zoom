@@ -1,0 +1,55 @@
+query getTripDetails($email: String, $riderId: String, $bookingType: Int!, $distanceType: String!, $totalDuration: Float!, $totalDistance: Float!, $currency: String!, $pickUpLat: Float!, $pickUpLng: Float!) {
+  getTripDetails(email: $email, riderId: $riderId, bookingType: $bookingType, distanceType: $distanceType, totalDuration: $totalDuration, totalDistance: $totalDistance, currency: $currency, pickUpLat: $pickUpLat, pickUpLng: $pickUpLng) {
+    status
+    errorMessage
+    results {
+      id
+      categoryName
+      capacity
+      categoryImage
+      categoryMarkerImage
+      priceDetails {
+        id
+        categoryId
+        unitPrice
+        minutePrice
+        basePrice
+        riderFeeType
+        riderFeeValue
+        driverFeeType
+        driverFeeValue
+        riderServiceFee
+        driverServiceFee
+        priceForDistance
+        priceForDuration
+        totalFare
+        calculatedPrice
+        totalFareForRider
+        totalFareForDriver
+        convertCurrency
+        isSpecialTrip
+        specialTripPrice
+        specialTripTotalFare
+        riderPayableFare
+      }
+      nearByDrivers {
+        id
+        email
+        phoneNumber
+        phoneDialCode
+        phoneCountryCode
+        lat
+        lng
+        overallRating
+        durationToReachRider
+        distanceFromRider
+        profile {
+          profileId
+          picture
+          firstName
+          lastName
+        }
+      }
+    }
+  }
+}

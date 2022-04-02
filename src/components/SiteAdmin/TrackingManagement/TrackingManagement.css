@@ -1,0 +1,90 @@
+@import '../../../components/variables.css';
+@import '../../../components/Common.css';
+@import '../../../components/responsive-common.css'; 
+
+.tableCss{
+	padding-top: 20px;
+}
+.widthInner{
+	box-shadow: inherit;
+	border-radius: inherit;
+	padding: 0 20px;
+}
+.marginLeft{
+	margin-left: 20px;
+}
+.justifyContent{
+	justify-content: space-between;
+	padding-bottom: 30px;
+    align-items: center;
+}
+.mapInfo{
+	width: auto;
+    height: auto;
+    background: #fff;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 4px 11px #00000029;
+    box-shadow: 0px 4px 11px #00000029;
+    position: absolute;
+    top: 26px;
+    right: 26px;
+    padding: 14px 14px 2px;
+}
+.relative{
+	position: relative;
+}
+.mapInfoHeading{
+	color: #040404;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+.mapInfoText{
+	font-size: 14px;
+    color: #495057;
+    padding-left: 7px;
+    padding-top: 1px;
+}
+.flex{
+	display: flex;
+	padding-bottom: 8px;
+}
+.flex img{
+	width: 18px;
+    height: 28px;
+}
+.infoIcon{
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: none;
+}
+.infoIcon img{
+	width: 60px;
+}
+.marginLeftDriver{
+	margin-left: 45px;
+}
+@media(max-width:991px) {
+	.mBmarginTop{
+		margin-top: 20px;
+	}
+	.justifyContent{
+		padding-bottom: 20px;
+	}
+	.infoIcon{
+		display: block;
+	}
+	.mapInfo{
+		display: none;
+	}
+	.hoverCss:hover .mapInfo{
+		display: block;
+	}
+	.widthInner {
+		padding: 20px 20px;
+	}
+	.marginLeftDriver {
+		margin-left: 0;
+	}
+}

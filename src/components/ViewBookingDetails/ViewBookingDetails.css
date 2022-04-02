@@ -1,0 +1,93 @@
+@import '../../components/variables.css';
+@import '../../components/Common.css';
+@import '../../components/responsive-common.css';
+
+.removedBorderAndPadding {
+    padding: 0 !important;
+    border-top: none !important;
+}
+
+.collapsedTable {
+    margin: 12px 0 !important;
+}
+
+.collapsedTable thead th {
+    box-shadow: none !important;
+}
+
+.setHeightAuto {
+    height: auto;
+}
+.circle{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #212529;
+    border-radius: 50%;
+    margin-right: 5px;
+    position: relative;
+    top: 6.3px;
+}
+.circleHeight{
+    height: 48px;
+    display: grid;
+    grid-template-columns: 20px auto auto;
+}
+.circleHeight:nth-child(2) .circle::after{
+    content: '';
+    width: 1.5px;
+    height: 100%;
+    background: #212529;
+    position: absolute;
+    bottom: 15px;
+    left: 6px;
+    min-height: 30px;
+}
+.circleHeight:nth-child(3) .circle::after{
+    content: '';
+    width: 1.5px;
+    height: 100%;
+    background: #212529;
+    position: absolute;
+    bottom: 15px;
+    left: 6px;
+    min-height: 30px;
+}
+.circleHeight:last-child{
+    height: auto;
+}
+.circleGray{
+    background: #ccc;
+}
+.circleGray::after{
+    background: #ccc !important;
+}
+.addOrChangeBtn{
+    float: right;
+    color: #0074C2 !important;
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+.addChange{
+    min-width: 155px;
+}
+@media screen and (max-width: 1023px) {
+    .circleHeight{
+        height: auto;
+    }
+    .circleHeight:nth-child(2) .circle::after{
+        background: transparent !important;
+    }
+    .circleHeight:nth-child(3) .circle::after{
+        background: transparent !important;
+    }
+}
+@media screen and (max-width: 767px) {
+.textAlignMb{
+    text-align: center;
+}
+.canCancelBtnMb{
+    display: block;
+    margin: 0  auto 18px auto;
+}
+}

@@ -1,0 +1,12 @@
+query getMoreThreads($bookingId: Int!, $offset: Int) {
+  getMoreThreads(bookingId: $bookingId, offset: $offset) {
+        id
+        threadId
+        isRead
+        authorId
+        userId
+        message
+        createdAt
+        updatedAt
+    }
+}

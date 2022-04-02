@@ -1,0 +1,6 @@
+{
+  "name": "cancel-booking-modal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CancelBookingModal.js"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "TrackingManagement",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./TrackingManagement.js"
+}

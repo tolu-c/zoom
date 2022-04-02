@@ -1,0 +1,6 @@
+{
+    "private": true,
+    "name": "manual-booking-form",
+    "main": "./ManualBookingForm.js"
+  }
+  

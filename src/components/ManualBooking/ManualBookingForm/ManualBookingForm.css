@@ -1,0 +1,164 @@
+@import '../../../components/variables.css';
+@import '../../../components/Common.css';
+@import '../../../components/responsive-common.css';
+
+.borderColor{
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+.Button{
+    width: auto;
+    height:38px;
+    background: #000000 !important;
+    color: #ffffff;
+    border-radius: 19px;
+    padding: 6px 28px;
+    margin-top: 20px;
+    border: inherit !important;
+}
+.noPaddingLeft{
+    padding-left: 0;
+    padding-right: 8px
+}
+.noPaddingRight{
+    padding-right: 0;
+    padding-left: 8px;
+}
+.formControl{
+    height: 44px;
+}
+.errorMessage{
+    color: red;
+}
+.bookingBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 7px;
+}
+.toggleBtn{
+    position: relative;
+    top: 2px;
+}
+.addIcon{
+    width: 53px;
+    height: 44px;
+    background: transparent !important;
+    border: 1px solid #CED4DA !important;
+    color: #000000 !important;
+    font-size: 27px !important;
+    padding: 3px 0 0 0 !important;
+    display: inline-block;
+    margin: 12px 0 0 15px;
+}
+.deleteIcon{
+    width: 53px;
+    height: 44px;
+    background: transparent !important;
+    border: 1px solid #CED4DA !important;
+    color: #000000 !important;
+    font-size: 17px !important;
+    padding: 3px 0 0 0 !important;
+    display: inline-block !important;
+    margin: 11px 0 0 15px;
+}
+.clockBtn{
+    width: 44px;
+    height: 44px;
+    background: #000 !important;
+    border: inherit !important;
+    border-radius: inherit;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 0;
+    position: relative;
+    top: 9px;
+}
+.tripText{
+    font-size: 12px;
+    color: #495057;
+}
+.position{
+    position: absolute;
+    bottom: -17px;
+}
+.stepOne{
+width: 100%;
+height: 100%;
+min-height: 125px;
+padding: 0 15px;
+}
+.stepOneHeading{
+    width: 100%;
+    background: #EAEAEA;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.baseLine{
+    align-items: baseline;
+}
+.stepTwoHeadingMargin{
+    margin-bottom: 0;
+}
+.stepTwoPadding{
+    padding: 15px;
+}
+.textAlignRight{
+    text-align: right;
+}
+.btnSecondary, .btnSecondary:active, .btnSecondary:focus {
+    background-color: var(--btn-secondary-bg) !important;
+    border: 1px solid transparent !important;
+    border-color: var(--btn-bordercolor-bg) !important;
+    color: var(--btn-secondary-color) !important;
+    padding: 6px 24px;
+    border-radius: 45px !important;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: none !important;
+    margin-top: 20px;
+}
+.btnSecondary:hover {
+    color: var(--btn-secondary-color) !important;
+    text-decoration: none !important;
+}
+.arrow{
+    position: absolute;
+    top: 4px;
+    right: 0;
+}
+.addStopLink{
+    color: #0074c2 !important;
+    text-decoration: underline !important;
+    font-size: 14px;
+    cursor: pointer;
+}
+.disable{
+    cursor: not-allowed;
+}
+@media (max-width: 767px) {
+    .dispatcherGrid {
+        grid-template-columns: 100%;
+    }
+    .noPaddingLeft {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .noPaddingRight {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

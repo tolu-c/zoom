@@ -1,0 +1,225 @@
+@import '../../../components/variables.css';
+@import '../../../components/Common.css';
+@import '../../../components/responsive-common.css';
+
+.positionRelative{
+position: relative;
+}
+.autoAssign{
+    height: 44px;
+    background: #fff;
+    padding: 0 41px 0 10px;
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 11px #00000029;
+    border-radius: 4px;
+}
+.autoAssignText{
+    padding: 0 0 0 6px;
+}
+.searchDriver{
+    width: 220px;
+    height: 249px;
+    overflow-y: auto;
+    background: #fff;
+    box-shadow: 0px 4px 11px #00000029;
+    position: absolute;
+    top:16px;
+    right: 16px;
+    border-radius: 4px;
+}
+.assignDriverText{
+    font-size: 16px;
+    font-weight: 600;
+    color: #040404;
+    margin-bottom:7px;
+}
+.displayFlexDriver{
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.displayFlexDriver:hover{
+    background: #F3F3F3;
+}
+.hoverVisible{
+    display: none;
+    transition: all 0.5s ease;
+}
+.displayFlexDriver:hover .hoverHidden{
+display: none;
+}
+.displayFlexDriver:hover .hoverVisible{
+    display: block;
+    }
+.driverImage{
+    width: 40px;
+    height:40px;
+    border-radius: 4px;
+}
+.mapBox{
+    border: 1px solid #F0F0F0;
+    border-radius: 4px
+}
+.vehicalImages{
+    width: 82px;
+    height: 82px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+.vehicalImages img{
+    max-width: 90%;
+    border-radius: 50%;
+}
+.vehicalTime{
+    font-size: 14px;
+    color: #040404;
+}
+.vehicalType{
+    font-size: 14px;
+    color: #040404;
+    margin-top: 9px;
+}
+.vehicalPricing{
+    font-size: 14px;
+    color: #040404;
+    margin-top: 6px;
+}
+.showInformation{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 5px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.showInformation:last-child{
+    border-bottom: inherit;
+    font-size: 16px;
+    color: #040404;
+    font-weight: 600;
+}
+.showInformationBox{
+    padding: 23px 0 0;
+}
+.headingText{
+    font-size: 17px;
+    font-weight: 600;
+    margin: 13px 5px 2px;
+}
+.headingText:first-child{
+    border-top: 1px solid #f0f0f0;
+}
+.showInformationBox:last-child{
+    border-bottom: inherit;
+}
+.flexBtn{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+.secondaryBtn{
+    margin-right: 12px;
+}
+.driverName{
+    overflow: hidden;
+    color: #495057;
+    font-size: 13px;
+    text-overflow: ellipsis;
+    max-width: 100px;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: top;
+}
+.driverNumber{
+    color: #878787;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 145px;
+    white-space: nowrap;
+}
+.positionSticky{
+    position: sticky;
+    top: 0;
+    background: #fff;
+    padding: 12px 12px 5px;
+    z-index: 1;
+}
+.assignText{
+    color: #495057;
+    font-size: 12px;
+    padding-left: 5px;
+}
+.tickIcon{
+    position: absolute;
+    top: -8px;
+    right: -10px;
+}
+.referIcon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;    
+}
+.activeBorder{
+    border: 2px solid #000000;
+}
+.disabledCategory{
+    cursor: not-allowed !important;
+}
+.disableBorder:hover{
+    border: 2px solid transparent;
+}
+.displayTable{
+    display: table;
+    width:100%;
+}
+.displayTabelCell{
+    vertical-align: middle;
+    display: table-cell;
+}
+.startIcon{
+    position: relative;
+    top: -2px;
+}
+.reviewText{
+    margin-left: 5px;
+    color: #495057;
+    font-size: 13px;
+    display: inline-block;
+    vertical-align: top;
+}
+.mapLoader{
+    position: absolute;
+    right:15px;
+    bottom: 15px;
+}
+.noDriverFound{
+    text-align: center;
+    padding: 25% 10px 0;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+@media (max-width: 767px) {
+    .searchDriver {
+        top: 84px;
+        right: 15px;
+    }
+  }

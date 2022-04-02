@@ -1,0 +1,457 @@
+body.rtl{
+    direction: rtl;
+}
+.rtl .mainContentRTL{
+    margin-right: 280px;
+    margin-left: 0;
+}
+.rtl .floatLeftRTL{
+float: left;
+}
+.rtl .floatRightRTL{
+    float: right;
+}
+.rtl .textAlignLeftRTL{
+   text-align: left;
+}
+.rtl .textAlignRightRTL{
+    text-align: right;
+}
+.rtl .iconTextPaddingRTL{
+    padding-left: 0;
+    padding-right: 6px;
+}
+.rtl .sideNavitemRTL{
+    padding: 6px 20px 6px 20px !important;
+}
+.rtl .sideNavitemRTL img{
+    transform: rotate(0deg);
+}
+.rtl .editIconRTL{
+    margin-left: 3px;
+    margin-right: 0;
+}
+.rtl .exportTextRTL{
+    margin-right: 0;
+    margin-left: 6px;
+}
+.rtl .searchInputRTL{
+    padding: 10px 0 6px 3px;
+    float: right;
+}
+.rtl .rc-pagination-prev, .rtl  .rc-pagination-next, .rtl .rc-pagination-jump-prev, .rtl .rc-pagination-jump-next {
+
+    float: right;
+}
+.rtl .rc-pagination-item {
+    float: right;
+}
+.rtl .rc-pagination-next{
+    margin-right: 10px;
+}
+.rtl .modal-dialog.wooberlyModalWidth {
+    max-width: 1024px;
+}
+.rtl .rootRTL{
+    background: linear-gradient(90deg,#ffffff 0,#ffffff 50%,#000000 0,#000000) !important;
+}
+.rtl .arrowIconRTL{
+    left: 38px;
+    right: auto;
+}
+.rtl .arrowIconRTL img{
+    transform: rotate(180deg);
+}
+.rtl .iconPaddingRightRTL{
+    padding-right: 15px;
+}
+.rtl .postionOneRTL{
+    right: 4%;
+    left: auto;
+    text-align: left;
+}
+.rtl .postionTwoRTL{
+    right: 0%; 
+    left: auto;
+    text-align: left;
+}
+.rtl .postionThreeRTL{
+    right: 3%;
+    left: auto;
+    text-align: left;
+}
+.rtl .postionFourRTL{
+    left: 4%;
+    right: auto;
+    text-align: right;
+}
+.rtl .postionFiveRTL{
+    left: 0%;
+    right:  auto;
+    text-align: right;
+}
+.rtl .postionSixRTL{
+    left: 3%;
+    right:auto;
+    text-align: right;
+}
+.rtl select {
+    background-position: 2% 9px !important;
+}
+.rtl .backBtnRTL{
+    margin-left: 0;
+    margin-right: 15px;
+}   
+.rtl .displayinlineRTL{
+    display: inline-block;
+}
+.rtl .gm-bundled-control{
+    right: 40px !important;
+    left: auto !important;
+}
+.rtl .avartarSectionWidthRTL{
+    margin-left: 6px;
+    margin-right: 0px;
+}
+.rtl .ql-snow .ql-picker:not(.ql-color-picker):not(.ql-icon-picker) svg {
+    right: auto;
+    left: 25px;
+}
+.rtl .mapSection .link {
+    left: 10px;
+    right: auto;
+}
+.rtl .whiteDropdown select {    
+    padding: 6px 10px 6px 30px;
+    background-position: 2% 6px !important;
+}
+.rtl .Loader-textCenter-FhA8T span{
+    direction: ltr !important;
+}
+.rtl .menuIconRTL img{
+    transform: rotate(0deg);
+}
+.rtl .paddingLeftRTL{
+    padding-right: 25px;
+    padding-left: 0;
+}
+.rtl .Loader__message span{
+    direction: ltr !important;
+}
+.rtl .loadingBtnRTL span{
+    direction: ltr !important;
+}
+.rtl .SingleDatePickerInput_clearDate {
+    top: 4px !important;
+    left: 0 !important;
+    right: auto !important;
+}
+.rtl label{
+    text-align: right;
+    display: block;
+}
+.rtl .ql-toolbar.ql-snow{
+    text-align: right;
+}
+.rtl .iconNoPaddingRTL{
+    padding-right: 0;
+}
+.rtl .redux-toastr .top-right{
+    left: 0;
+    right: auto;
+    direction: ltr;
+}
+.rtl .rightArrowRTL img{
+    transform: rotate(180deg);
+}
+.rtl .wooberlyModal .close {
+    float: left;
+    margin: -1rem -1rem -1rem -1rem;
+}
+.rtl .bookingCollapse  table tr td {
+    text-align: right;
+}
+.rtl .bookingCollapse  table tr th {
+    text-align: right;
+}
+.rtl .bookingCollapse .Collapsible__trigger:after {
+    left: 12px;
+    top: 2px;
+    right: auto;
+}
+.rtl .bookingCollapse .Collapsible__trigger {
+    padding: 8px 12px 8px 12px;
+}
+.rtl .heatmapBtnRTL{
+    margin-right: 20px;
+    margin-left: 0;
+}
+.rtl .mapInfoTextRTL{
+    padding-right: 7px;
+    padding-left: 0;
+}
+.rtl .mapInfoRTL{
+    left: 26px;
+    right: auto;
+}
+.rtl .infoIconRTL{
+    left: 0;
+    right: auto;
+}
+.rtl .heatMapSelectRTL select{
+    background-position: 3% 9px !important;
+}
+.rtl .headingMobileRTL{
+    padding: 10px 13px 5px 0px;
+    text-align: right;
+}
+.rtl .paddingRoutesSectionRTL{
+    padding: 30px 25px 15px 55px;
+}
+.rtl .manualDispatcher .react-tel-input .selected-flag {
+    padding: 0 10px 0 0;
+}
+.rtl .manualDispatcher .react-tel-input .form-control{
+    padding: 0 75px 0px 0;
+}
+.rtl .react-tel-input .country-list .flag {
+    margin-left: 6px;
+   margin-right: 0;
+}
+.rtl .manualDispatcher .react-tel-input .country-list {
+    text-align: right;
+}
+.rtl .react-tel-input .selected-flag .arrow{
+    left: -27px;
+}
+.rtl .noPaddingLeftRTL{
+    padding-left: 8px;
+    padding-right: 0px;
+}
+.rtl .noPaddingRightRTL{
+    padding-right: 8px;
+    padding-left: 0;
+}
+.rtl .addIconRTL{
+    margin: 15px 15px 0 0px;
+}
+.rtl .clockBtnRTL{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    left: 0;
+}
+.rtl .customFlatpickr .flatpickr-input {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+ 
+}
+.rtl .autoAssignRTL{
+    padding: 0 10px 0 10px;
+    right: 15px;
+    left: auto;
+}
+.rtl .autoAssignTextRTL{
+    padding: 0 6px 0 0px;
+
+}
+.rtl .searchDriver .form-control {
+    padding: 1px 30px 0 0px;
+}
+.rtl .searchDriver::before {
+    right: 8px;
+    left: auto;
+}
+.rtl .tickIconRTL{
+    left: -10px;
+    right: auto;
+}
+.rtl .autoAssignTextRTL{
+    padding: 0 10px 0 0px;
+    text-align: right;
+}
+.rtl .manualBookingSlider .swiper-container-rtl .swiper-button-next {
+    left: 0px;
+    transform: rotate(180deg);
+    top: 44%;
+}
+.rtl .manualBookingSlider .swiper-container-rtl .swiper-button-prev {
+    right: 0px;
+    transform: rotate(180deg);
+    top: 44%;
+}
+.rtl .referIconRTL{
+    left: 0;
+    right: auto;
+}
+.rtl .secondaryBtnRTL{
+    margin-right: 0;
+    margin-left: 12px;
+}
+.rtl .headingTextRTL{
+    text-align: right;
+}
+.rtl .exportTextBookingRTL{
+    margin-left: 10px;
+    margin-right: 0;
+}
+.rtl .mapLoaderRTL{
+    left:15px;
+    bottom: 15px;
+}
+.rtl .viewBookingBackRTL{
+    margin-right: 15px;
+    margin-left: 0;
+}
+.rtl .deleteIconRTL{
+    margin: -4px 15px 0 0px !important;
+}
+.rtl .arrowRTL{
+    left: 0;
+    right: auto;
+}
+.rtl .searchDriverRTL{
+    left: 15px;
+    right: auto;
+}
+.rtl .reviewTextRTL{
+    margin-left: 0px;
+    margin-right: 5px;
+}
+.rtl .editdeleteIconRTL{
+    margin: 12px 15px 0 0px !important;
+}
+.rtl .loaderRTL span{
+    direction: ltr;
+}
+.rtl .assignTextRTL{
+    padding-right: 5px;
+    padding-left: 0;
+}
+.rtl .marginLeftDriverRTL{
+    margin-left: 0;
+    margin-right: 45px;
+}
+@media screen and (max-width: 1200px) {
+    .rtl .textCenterDashboardRTL{
+        text-align: right !important;
+    }
+    .rtl .textCenterDashboardRightRTL{
+        text-align: left !important;
+    }
+    .rtl .closeButtonHomeRTL{
+        left: 15px;
+        right: auto;
+    }
+    .rtl .customRatioButton input[type=radio]:before {
+        margin: 0px;
+      }
+}
+
+@media (max-width:1023px) and (min-width:768px) {
+    .rtl .postionOneRTL {
+        right: inherit;
+        left: inherit;
+        text-align: inherit;
+    }
+    .rtl .postionTwoRTL {
+        right: inherit;
+        left: inherit;
+        text-align: inherit;
+    }
+    .rtl .postionThreeRTL {
+        right: inherit;
+        left: inherit;
+        text-align: inherit;
+    }
+    .rtl .postionFourRTL {
+        left: inherit;
+        right: inherit;
+        text-align: inherit;
+    }
+    .rtl .postionFiveRTL {
+        left: inherit;
+        right: inherit;
+        text-align: inherit;
+    }
+    .rtl .postionSixRTL {
+        left: inherit;
+        right: inherit;
+        text-align: inherit;
+    }
+    .rtl .marginLeftDriverRTL {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .rtl .mainContentRTL {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .rtl .sideNavitemRTL{
+        padding: 14px 20px 14px 0px !important;
+    }
+    .rtl .logoutIconMobileRTL{
+        left: 13px;
+        right: auto;
+    }
+    .rtl .sideMenu .button {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    .rtl .closeColorRTL{
+        left: 0;
+        right: auto;
+        text-align: left;
+        padding: 2px 0px 2px 12px;
+    }
+   .languageIcon{
+       display: inline-block;
+       margin-right: 4px;
+   }
+   .rtl .NewResponsiveTable table td {
+    text-align: right;
+}
+.rtl .NewResponsiveTable button {
+    text-align: right;
+    padding-right: 0;
+}
+.rtl select {
+    background-position: 2% 3px !important;
+}
+.rtl .whiteDropdown select {    
+    padding: 6px 10px 6px 10px;
+}
+.rtl .floatLeftMbRTL{
+    float: none;
+}
+@supports (-webkit-touch-callout: none) {
+    .rtl .customRatioButton input[type=radio]:before{
+      position: relative;
+      left: 0.5px;
+      top: -1px;
+    }
+  }
+  .rtl .floatMbRightRTL{
+      float: right;
+  }
+  .textAlignRightMbRTL{
+    text-align: right !important;
+}
+.rtl .rootRTL {
+    background: #000 !important;
+}
+
+.rtl .canCancelBtnMbRTL{
+    margin: 0;
+    display: inline-block;
+}
+.rtl .marginLeftDriverRTL {
+    margin-left: 0;
+    margin-right: 0;
+}
+}

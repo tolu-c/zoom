@@ -1,0 +1,6 @@
+{
+    "name": "RiderDriverDetails",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./RiderDriverDetails.js"
+  }

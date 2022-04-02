@@ -1,0 +1,5 @@
+{
+    "name": "show-map",
+    "private": true,
+    "main": "./ShowMap.js"
+}

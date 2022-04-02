@@ -1,0 +1,5 @@
+{
+  "name": "switch-button",
+  "private": true,
+  "main": "./SwitchButton.js"
+}

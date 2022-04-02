@@ -1,0 +1,6 @@
+{
+  "name": "cancel-booking-form",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CancelBookingForm.js"
+}

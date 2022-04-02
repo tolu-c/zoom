@@ -1,0 +1,20 @@
+@import '../../../components/variables.css';
+@import '../../../components/Common.css';
+@import '../../../components/responsive-common.css';
+ .marbtm14 {
+	margin-bottom: 14px;
+}
+.container {
+	margin: 0 auto;
+}
+.headingMobile{
+	font-size: 19px;
+    font-weight: 600;
+    padding: 10px 0 5px 13px;
+}
+.normalFontWeight{
+	font-weight: 400;
+}
+.paddingTop{
+	padding-top: 20px;
+}

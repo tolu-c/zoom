@@ -1,0 +1,73 @@
+@import '../../../../components/variables.css';
+@import '../../../../components/Common.css';
+@import '../../../../components/responsive-common.css';
+.clockBtn{
+    width: 44px;
+    height: 44px;
+    background: #000 !important;
+    border: inherit !important;
+    border-radius: inherit;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 0;
+    position: relative;
+    top: 5px;
+}
+.tripText{
+    font-size: 12px;
+    color: #495057;
+}
+.Button{
+    height:38px;
+    background: #000000 !important;
+    color: #ffffff;
+    border-radius: 19px;
+    padding: 6px 13px;
+    margin-top: 20px;
+    border: inherit !important;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.baseLine{
+    align-items: baseline;
+}
+.addIcon{
+    width: 53px;
+    height: 44px;
+    background: transparent !important;
+    border: 1px solid #CED4DA !important;
+    color: #000000 !important;
+    font-size: 27px !important;
+    padding: 3px 0 0 0 !important;
+    display: inline-block;
+    margin: 12px 0 0 15px;
+}
+.deleteIcon{
+    width: 53px;
+    height: 44px;
+    background: transparent !important;
+    border: 1px solid #CED4DA !important;
+    color: #000000 !important;
+    font-size: 17px;
+    padding: 3px 0 0 0;
+    display: inline-block;
+    margin: 10px 0 0 15px;
+}
+.noMargin{
+    margin: 0;
+}
+.cursorDisable{
+    cursor: not-allowed;
+}
+.position{
+    position: absolute;
+    bottom: -19px;
+}
+.addStopLink{
+    color: #0074c2 !important;
+    text-decoration: underline !important;
+    font-size: 14px;
+    cursor: pointer;
+}

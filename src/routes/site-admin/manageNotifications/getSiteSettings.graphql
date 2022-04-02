@@ -1,0 +1,6 @@
+query getSiteSettings ($type: String){
+  getSiteSettings(type: $type){
+    name
+    value
+  }
+}
